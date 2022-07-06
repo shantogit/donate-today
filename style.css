@@ -1,0 +1,279 @@
+body {
+    font-family: 'Anek Latin',
+        sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
+    font-family: 'Ubuntu',
+        sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 669px;
+    width: 100%;
+}
+
+.header h1 {
+    margin-top: 200p;
+    text-align: center;
+    color: tomato;
+    font-size: 70px;
+}
+
+.header p {
+    text-align: center;
+    color: khaki;
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+.donate-button {
+    text-align: center;
+    text-decoration: none;
+    background-color: orange;
+    width: 160px;
+    height: 40px;
+    margin-left: 600px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+
+
+}
+
+.donate-button:hover {
+    background-color: #fff;
+    color: orange;
+    border: 3px solid orange;
+    font-weight: 700;
+}
+
+.donate-today {
+    margin: 100px;
+}
+
+.donate-heading {
+    text-align: center;
+    margin: 40px;
+}
+
+.donate-heading h1 {
+    font-size: 45px;
+}
+
+.donate-heading p {
+    font-size: 25px;
+}
+
+.amount-button {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+
+
+    font-size: 50px;
+    margin-left: 60px;
+    padding: px;
+
+
+}
+
+.btn {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 10px;
+    background: transparent;
+    border: 0px;
+    color: gray;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+
+.btn:hover {
+    opacity: inherit;
+    color: tomato;
+    border: 5px solid tomato;
+    background-color: darkkhaki;
+    border-radius: 3px;
+}
+
+.other-amount {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.other-amount-donate {
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: orange;
+    width: 160px;
+    height: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+
+}
+
+.other-amount-donate:hover {
+    background-color: #fff;
+    color: orange;
+    border: 3px solid orange;
+    font-weight: 700;
+}
+
+#amount-box {
+    border: 5px solid orange;
+    background-color: rgb(238, 219, 168);
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+
+}
+
+input {
+    border: 0px;
+    text-align: center;
+    display: block;
+    margin-left: 490px;
+    color: darkgray;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan h1 {
+    font-size: 40px;
+}
+
+.donate-plan p {
+    font-size: 25px;
+    color: gray;
+}
+
+.container {
+    display: flex;
+    margin-left: 140px;
+    padding: 20px;
+    margin-right: 20px;
+    height: 320px;
+
+}
+
+.container div {
+    padding: 20px;
+    margin-right: 20px;
+    width: 300px;
+
+}
+
+.container .one {
+    background-color: lightblue;
+
+}
+
+.container .one i {
+    size: 30px;
+}
+
+.container .two {
+    background-color: lightpink;
+
+}
+
+.container .there {
+    background-color: lightgoldenrodyellow;
+
+}
+
+.getmyupdate h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.getmyupdate p {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.update {
+    background-color: sandybrown;
+    height: 200px;
+    width: 800px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#email {
+    margin-top: 80px;
+    margin-right: 0px;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(218, 222, 226);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn {
+    height: 50px;
+    width: 200px;
+    margin-top: 80px;
+    margin-right: 500px;
+    padding: 10px;
+
+    background-color: tomato;
+    color: #fff;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: tomato;
+    border: 5px solid tomato;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(8, 8, 14);
+    height: 220px;
+
+}
+
+footer h1 {
+    padding-top: 50px;
+    color: #fff;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 0px;
+    font-style: italic;
+}
