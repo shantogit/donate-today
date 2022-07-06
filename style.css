@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
-    background-image: url(images/donation4.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/donation6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 669px;
@@ -28,7 +28,7 @@ body {
 
 .header p {
     text-align: center;
-    color: khaki;
+    color: white;
     font-size: 25px;
     margin-bottom: 100px;
     font-weight: 700;
